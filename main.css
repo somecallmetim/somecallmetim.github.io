@@ -7830,10 +7830,35 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 body {
-  padding-top: 30px; }
+  padding-top: 30px;
+  color: #00003D; }
 
 .wrap {
   width: 160px;
   height: auto; }
+
+.project-card-body {
+  background-color: #7D82B8; }
+
+h3, .h3 {
+  background-color: #7D82B8;
+  color: #00003D; }
+
+.nav-pills .nav-link.active {
+  background-color: #00003D;
+  color: white; }
+
+.nav-pills .nav-link:not(.active) {
+  color: #00003D; }
+
+.btn-primary:hover {
+  background-color: #CCC7B9;
+  color: #816736; }
+
+.top-of-page-link {
+  color: #816736; }
+
+.list-group-item {
+  color: #00003D; }
 
 /*# sourceMappingURL=main.css.map */
