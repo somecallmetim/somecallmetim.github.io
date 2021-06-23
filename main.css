@@ -7830,6 +7830,7 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 body {
+  position: relative;
   padding-top: 30px;
   color: #00003D; }
 
@@ -7868,5 +7869,8 @@ h3, .h3 {
 
 footer {
   background-color: #7D82B8; }
+
+.scroll-anchor-point {
+  scroll-margin-top: 70px; }
 
 /*# sourceMappingURL=main.css.map */

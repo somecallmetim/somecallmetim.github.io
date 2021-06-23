@@ -5,6 +5,7 @@ $theme-colors: (
 @import "node_modules/bootstrap/scss/bootstrap";
 
 body {
+    position: relative;
     padding-top: 30px;
     color: #00003D;
 }
@@ -53,4 +54,8 @@ h3 {
 
 footer {
     background-color: #7D82B8;
+}
+
+.scroll-anchor-point {
+    scroll-margin-top: 70px;
 }

@@ -8,9 +8,10 @@
 
     <title>Tyger's Portfolio</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#mainNavBar" data-bs-offset="80">
+   <!-- <body> -->
     <header class="container">
-        <nav class="navbar fixed-top navbar-light" style="background-color: #7D82B8;">
+        <nav id="mainNavBar" class="navbar fixed-top navbar-light" style="background-color: #7D82B8;">
             <a href="#"  class="navbar-left ms-4"><img width="50px" height="auto" src="tiger.png"></a>
 
                 <ul class="nav nav-pills">
@@ -29,7 +30,7 @@
                 </ul>
         </nav>
     </header>
-    <div id="home" class="container my-5">
+    <div id="home" class="scroll-anchor-point container my-5">
         <h1>Tim Bauer</h1>
         <a href="mailto:timbauer@ymail.com" type="button" class="btn btn-outline-primary">timbauer@ymail.com</a>
         <p class="lead">Full Stack Dev who enjoys building end to end features in web applications</p>
@@ -110,7 +111,7 @@
     </section>
 
     <section class="container mt-5">
-        <h3 id="portfolio" class="ps-3 mb-3">Previous Projects</h3>
+        <h3 id="portfolio" class="scroll-anchor-point ps-3 mb-3">Previous Projects</h3>
         <div class="row">
             <div class="col">
                 <div class="card mb-3">
@@ -150,7 +151,7 @@
         <div class="row">
             <div class="col">
                 <div class="clearfix">
-                    <h3 id="about" class="ps-3 mb-3">About Me</h3>
+                    <h3 id="about" class="scroll-anchor-point ps-3 mb-3">About Me</h3>
                     <img class="mb-3 me-5 rounded float-start" src="me.jpg" alt="picture of me" width="400px">
                     <p>If Trump Ipsum weren’t my own words, perhaps I’d be dating it. Lorem Ipsum better hope that there are no "tapes" of our conversations before he starts leaking to the press! Lorem Ipsum's father was with Lee Harvey Oswald prior to Oswald's being, you know, shot.
             
@@ -168,7 +169,7 @@
     </section>
 
     <section class="container my-5">
-        <h3 id="findMe" class="text-center">Find me on social media!</h3>
+        <h3 id="findMe" class="scroll-anchor-point text-center">Find me on social media!</h3>
         <div class="row my-5">
             <div class="col">
                 <div class="wrap mx-auto d-block">
