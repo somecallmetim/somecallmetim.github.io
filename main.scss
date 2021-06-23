@@ -1,0 +1,14 @@
+$theme-colors: (
+    "primary": #00003D
+);
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+    padding-top: 30px;
+}
+
+.wrap {
+    width: 160px;
+    height: auto;
+}
