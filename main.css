@@ -7842,7 +7842,9 @@ body {
 
 h3, .h3 {
   background-color: #7D82B8;
-  color: #00003D; }
+  color: #00003D;
+  padding-top: 1px;
+  padding-bottom: 2px; }
 
 .nav-pills .nav-link.active {
   background-color: #00003D;
